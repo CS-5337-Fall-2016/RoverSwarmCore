@@ -115,7 +115,7 @@ public class DisplayCommunicationsMap {
     public void displayGlobalMap(){
     	//System.out.println("global map output here");
     	globalMapJSON = com.getGlobalMap();
-    	//System.out.println(globalMapJSON);
+    	System.out.println(globalMapJSON);
     	printGlobalMap(globalMapJSON);	
     }
     
